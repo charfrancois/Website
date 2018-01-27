@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href=style1.css>
+      <title>Sam, Charlie, And Gabe</title>
+   </head>
+  <h1 class="title">Sam, Charlie & Gabe</h1>
+  <div class="navbar">
+    <a href="website.html">Computer Science</a>
+    <a href="about.html">About</a>
+    <a href="test.html">Waldo</a>
+    <div class="dropdown">
+      <button class="dropbtn">Sam
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="sam1.html">About</a>
+        <a href="sam2.html">Portfolio</a>
+        <a href="sam3.html">Misc</a>
+        <a href="sam4.html">Table</a>
+      </div>
+    </div>
+    <div class="dropdown active">
+      <button class="dropbtn">Charlie
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="poopfile.html">About Me</a>
+        <a href="Portfoliocharlie.html">Portfolio</a>
+        <a href="charlie3.html" class="active">Cool HTML Things</a>
+        <a href="charlie4.html">4</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Gabe
+        <i class="dwn1"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="gabe1.html">About</a>
+        <a href="gabe2.html">Portfolio</a>
+        <a href="gabe3.html">Misc</a>
+        <a href="gabe4.html">More</a>
+      </div>
+    </div>
+  </div>
+  <body>
+    <h2 align="center">Charlie</h2>
+      <div class="about">
+        <div class="blog">
+          <h3>Cool HTML things/Interactive</h3>
+          <html>
+<body>
+
+<p>The image is a link. You can click on it.</p>
+
+<a href="https://www.apple.com/shop/product/MMEF2AM/A/airpods" target="_blank">
+  <img src="https://www.apple.com/v/airpods/d/images/overview/og.png?201710171404" alt="Apple Store" style="width:100%;height:100%;border:0px;">
+</a>
+</body>
+</html>
+  <html>
+    <head>
+      <style>
+#div1 {
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+    border: 1px solid black;
+}
+  </style>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<p>Drag the frisbee image into the square:</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="https://target.scene7.com/is/image/Target/14766310_Alt02?wid=520&hei=520&fmt=pjpeg" draggable="true" ondragstart="drag(event)" width="125" height="125">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <html>
+    <head>
+        <style>
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+</style>
+</head>
+<body>
+
+<h2>HD Wallpaper Gallery</h2>
+<h4>Resize the browser window to see that it is responsive.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://awesomewallpapers.files.wordpress.com/2016/02/taschachhausinpitztal-2880x1800-large.jpg">
+      <img src="https://awesomewallpapers.files.wordpress.com/2016/02/taschachhausinpitztal-2880x1800-large.jpg" alt="Cabin" width="300" height="200">
+    </a>
+    <div class="desc">Cabin in a beautiful mountain area</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://longwallpapers.com/Desktop-Wallpaper/nature-wallpaper-high-definition-For-Desktop-Wallpaper.jpg">
+      <img src="http://longwallpapers.com/Desktop-Wallpaper/nature-wallpaper-high-definition-For-Desktop-Wallpaper.jpg" alt="Lake" width="600" height="400">
+    </a>
+    <div class="desc">Beautiful level shot of a lake with perfect sun shining down</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg">
+      <img src="https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg" alt="Beach" width="600" height="400">
+    </a>
+    <div class="desc">Beautiful beach with perfect sand and light blue water</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://wallpaper.pickywallpapers.com/1600x900/amazing-harbor.jpg">
+      <img src="http://wallpaper.pickywallpapers.com/1600x900/amazing-harbor.jpg" alt="Ocean" width="600" height="400">
+    </a>
+    <div class="desc">Cabana out on the clearest water on earth</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p> click the image to be brought to another tab with the .jpeg</p>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>
+        </div>
+                </div>
+                  </body>
+
+</html>
